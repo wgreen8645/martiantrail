@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>The Martian Trail</title>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+  <center><h2>The Martian Trail </h2></center>
+    <div id="home"></div>
+    <div id="journey">
+      <div id="stats-area">
+        <div class="stat">Day <span id="stat-day" class="stat-value"></span></div>
+        <div class="stat">Distance <span id="stat-distance" class="stat-value"></span></div>
+        <div class="stat">Crew <span id="stat-crew" class="stat-value"></span></div>
+        <div class="stat">Fuel <span id="stat-oxen" class="stat-value"></span></div>
+        <div class="stat">Food <span id="stat-food" class="stat-value"></span></div>
+        <div class="stat">Money <span id="stat-money" class="stat-value"></span></div>
+        <div class="stat">Firepower <span id="stat-firepower" class="stat-value"></span></div>
+        <div class="stat">Weight <span id="stat-weight" class="stat-value"></span><span id="stat-capacity" class="stat-value"></span></div>
+      </div>
+      <div class="updates-area" id="updates-area"></div>
+      <div id="shop" class="hidden">
+        <div id="prods">
+        </div>
+        <button>Leave shop</button>
+      </div>
+      <div id="attack" class="hidden">
+        <div id="attack-description"></div>
+        <button id="fight">Fight</button>
+        <button id="runaway">Run away</button>
+      </div>
+      <div id="progress-area">
+        <img id="caravan" src="images/ship1.png" />
+        <img id="trees" src="images/space.png" />
+      </div>
+    </div>
+
+    <div id="event"></div>
+    <script src="js/Event.js"></script>
+    <script src="js/Ship.js"></script>
+    <script src="js/UI.js"></script>
+    <script src="js/Game.js"></script>
+  </body>
+</html>
