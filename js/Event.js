@@ -7,14 +7,14 @@ MarsH.Event.eventTypes = [
     type: 'STAT-CHANGE',
     notification: 'negative',
     stat: 'crew',
-    value: -3,
-    text: 'Some weird alien stuff has poisoned your food. Casualties: '
+    value: -1,
+    text: 'It seems that your food has been poisoned, could it be those martians? Casualties: '
   },
   {
     type: 'STAT-CHANGE',
     notification: 'negative',
     stat: 'crew',
-    value: -4,
+    value: -2,
     text: 'You met with some martians the other day, it seems they have spread a disease to you and your crew. Casualties: '
   },
   {
@@ -22,13 +22,13 @@ MarsH.Event.eventTypes = [
     notification: 'negative',
     stat: 'food',
     value: -10,
-    text: 'Some sort of alien bug has infested your food. Food lost: '
+    text: 'Your food has been infested by an alien species. Food lost: '
   },
   {
     type: 'STAT-CHANGE',
     notification: 'negative',
     stat: 'money',
-    value: -50,
+    value: -30,
     text: 'A sneaky martian stole some of your money. Money lost: $'
   },
   {
@@ -49,7 +49,7 @@ MarsH.Event.eventTypes = [
     type: 'STAT-CHANGE',
     notification: 'positive',
     stat: 'food',
-    value: 20,
+    value: 10,
     text: 'You found some food on a weird planet, Mmmmm tastes like martian. Food added: '
   },
   {
@@ -105,7 +105,7 @@ MarsH.Event.eventTypes = [
   {
     type: 'ATTACK',
     notification: 'negative',
-    text: 'These martians are too happy about you trying to colonize their planet...'
+    text: 'These martians aren\'t too happy about you trying to colonize their planet...'
   }
 ];
 

@@ -34,8 +34,8 @@ MarsH.Game.init = function(){
     crew: 5,
     food: 10,
     oxen: 2,
-    money: 100,
-    firepower: 2
+    money: 150,
+    firepower: 3
   });
 
   //pass references
