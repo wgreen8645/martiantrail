@@ -112,7 +112,6 @@ MarsH.Event.eventTypes = [
     notification: 'negative',
     text: 'Martians use their telepathic abilities on you!'
   },
-  
 ];
 
 MarsH.Event.generateEvent = function(){
