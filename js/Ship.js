@@ -18,7 +18,7 @@ MarsH.Ship.updateWeight = function(){
   var droppedGuns = 0;
 
   //how much can the caravan carry
-  this.capacity = this.oxen * MarsH.WEIGHT_PER_FUEL + this.crew * MarsH.WEIGHT_PER_PERSON;
+  this.capacity = this.oxen * MarsH.WEIGHT_PER_SHIP + this.crew * MarsH.WEIGHT_PER_PERSON;
 
   //how much weight do we currently have
   this.weight = this.food * MarsH.FOOD_WEIGHT + this.firepower * MarsH.FIREPOWER_WEIGHT;

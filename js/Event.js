@@ -36,7 +36,7 @@ MarsH.Event.eventTypes = [
     notification: 'negative',
     stat: 'oxen',
     value: -1,
-    text: 'You catch a martian stealing some of your fuel, but it gets away before you can do anything. Fuel lost: '
+    text: 'Martians attack one of your secondary ships. Ships lost: '
   },
   {
     type: 'STAT-CHANGE',
@@ -57,7 +57,7 @@ MarsH.Event.eventTypes = [
     notification: 'positive',
     stat: 'oxen',
     value: 1,
-    text: 'You steal some fuel from a martian species, who knows what they\'ll do to you but it\'s worth the risk I guess... Fuel added: '
+    text: 'You steal a ship from a martian species, who knows what they\'ll do to you but it\'s worth the risk I guess... Ships added: '
   },
   {
     type: 'SHOP',
@@ -65,7 +65,7 @@ MarsH.Event.eventTypes = [
     text: 'You have found a shop',
     products: [
       {item: 'food', qty: 20, price: 50},
-      {item: 'fuel', qty: 1, price: 200},
+      {item: 'ship', qty: 1, price: 200},
       {item: 'firepower', qty: 2, price: 50},
       {item: 'crew', qty: 5, price: 80}
     ]
@@ -76,7 +76,7 @@ MarsH.Event.eventTypes = [
     text: 'You have found a shop',
     products: [
       {item: 'food', qty: 30, price: 50},
-      {item: 'fuel', qty: 1, price: 200},
+      {item: 'ship', qty: 1, price: 200},
       {item: 'firepower', qty: 2, price: 20},
       {item: 'crew', qty: 10, price: 80}
     ]
@@ -87,7 +87,7 @@ MarsH.Event.eventTypes = [
     text: '"Friendly" Martians have things to sell you',
     products: [
       {item: 'food', qty: 20, price: 60},
-      {item: 'fuel', qty: 1, price: 300},
+      {item: 'ship', qty: 1, price: 300},
       {item: 'firepower', qty: 2, price: 80},
       {item: 'crew', qty: 5, price: 60}
     ]

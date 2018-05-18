@@ -1,7 +1,7 @@
 var MarsH = MarsH || {};
 
 //constants
-MarsH.WEIGHT_PER_FUEL = 20;
+MarsH.WEIGHT_PER_SHIP = 20;
 MarsH.WEIGHT_PER_PERSON = 2;
 MarsH.FOOD_WEIGHT = 0.6;
 MarsH.FIREPOWER_WEIGHT = 5;
