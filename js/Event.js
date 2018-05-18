@@ -95,7 +95,7 @@ MarsH.Event.eventTypes = [
   {
     type: 'ATTACK',
     notification: 'negative',
-    text: 'You and your crew have been attacked by a gang of martians!'
+    text: 'You and your crew have been attacked by a gang of martians (Billy shouldn\'t have made fun of them)!'
   },
   {
     type: 'ATTACK',
@@ -106,7 +106,13 @@ MarsH.Event.eventTypes = [
     type: 'ATTACK',
     notification: 'negative',
     text: 'These martians aren\'t too happy about you trying to colonize their planet...'
-  }
+  },
+  {
+    type: 'ATTACK',
+    notification: 'negative',
+    text: 'Martians use their telepathic abilities on you!'
+  },
+  
 ];
 
 MarsH.Event.generateEvent = function(){
