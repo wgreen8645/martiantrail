@@ -140,5 +140,6 @@ MarsH.Game.resumeJourney = function() {
   this.step();
 };
 
+
 //init game
 MarsH.Game.init();
