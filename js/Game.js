@@ -140,6 +140,9 @@ MarsH.Game.resumeJourney = function() {
   this.step();
 };
 
+if(this.ship.distance == 200) {
+	this.ui.notify('You\'re halfway to your destination. The war still ensues on Earth')
+};
 
 //init game
 MarsH.Game.init();
